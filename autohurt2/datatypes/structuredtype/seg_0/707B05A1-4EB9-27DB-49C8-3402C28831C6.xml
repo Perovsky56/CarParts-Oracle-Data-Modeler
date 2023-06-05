@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="klientdetal_typ" directorySegmentName="seg_0" id="707B05A1-4EB9-27DB-49C8-3402C28831C6">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:19:32 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<inheritanceRelation>5A9D2F71-CDEB-64A0-40C2-4757BDCDD943</inheritanceRelation>
+<instantiable>true</instantiable>
+<parentTypeID>261DCBC5-955E-B05E-AA00-7C8797CDBA6E</parentTypeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="Data_dod" id="F0731840-F05A-489A-1986-5E85170AEF3A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:19:50 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT008</type>
+</Attribute>
+<Attribute name="Inf_dodatkowe" id="73491E48-B7FD-D065-AA84-3190B7EF1642">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:19:52 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5262A38-F9A3-7963-ECB0-D6B7859EEF7C" name="dzial_tab">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:50 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<basedOnStructuredType>7C83E2D1-C0FB-D4BB-8ED9-B5FAD3DAB016</basedOnStructuredType>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oid" id="B57A7242-0681-F5F1-9F6D-3910DD299661">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oid>true</oid>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>7C83E2D1-C0FB-D4BB-8ED9-B5FAD3DAB016</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_dzialu" id="A5DCE382-A252-2D2B-36C1-40C07420568B">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>44A66163-B924-0E61-C722-AAA6733864B3</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_dzialu" id="C36FFA22-3839-24F9-6D83-B35D356D120D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>CEA6DB61-EB15-29E6-E06D-80653630C05A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sektor_magazynu" id="819B3AF9-CA85-CB52-1B62-808E2C7EBB9F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>C97E2407-6DEC-2AE5-D864-6F21AFA8F63A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_dzialu" id="5F50B496-D95D-CD2F-11F4-436EE4D91C99">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<structAttributeID>EB589A48-CB6E-B980-DF24-87D90775AF46</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6042EB39-7C09-A257-5893-82271E5D8BB6" name="dzial_tab_PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oidKey>true</oidKey>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B57A7242-0681-F5F1-9F6D-3910DD299661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

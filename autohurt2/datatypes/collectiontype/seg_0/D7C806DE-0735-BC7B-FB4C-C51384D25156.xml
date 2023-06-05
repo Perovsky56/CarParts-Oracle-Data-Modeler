@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="produkt_typ_Array" directorySegmentName="seg_0" id="D7C806DE-0735-BC7B-FB4C-C51384D25156">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:33:40 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size></size>
+<type>81DB0897-2ECC-8488-AE25-5460037FDF89</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>10</maxElement>
+<type>ARRAY</type>
+</CollectionType>

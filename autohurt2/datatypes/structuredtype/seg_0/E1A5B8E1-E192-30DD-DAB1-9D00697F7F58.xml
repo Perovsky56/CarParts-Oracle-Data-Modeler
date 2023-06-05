@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="dostawa_typ" directorySegmentName="seg_0" id="E1A5B8E1-E192-30DD-DAB1-9D00697F7F58">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:24:54 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="ID_dostawy" id="C1325F6D-EB9C-AEEA-7DAD-52467E93B221">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:25:03 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Nr_etykiety" id="1A9AE088-3680-AA45-0240-383715037E1A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:25:13 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Data_dostawy" id="F1EB038E-6B0F-FCEF-C7F7-EDCF816BCF5D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:25:22 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT008</type>
+</Attribute>
+<Attribute name="inst_adres_typ" id="21ABA360-AF28-A754-7184-6AD0E7E5C800">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:25:43 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>D62B1A52-72D0-7B30-04C9-6EDEB4FE431C</referencerelation>
+<scale>0</scale>
+<type>87F53637-5F6D-755D-E97B-B565196BE8F0</type>
+<referenceID>D62B1A52-72D0-7B30-04C9-6EDEB4FE431C</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>

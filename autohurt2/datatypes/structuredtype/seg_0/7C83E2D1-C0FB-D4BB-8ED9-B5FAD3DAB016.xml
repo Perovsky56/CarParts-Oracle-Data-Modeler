@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="dzial_typ" directorySegmentName="seg_0" id="7C83E2D1-C0FB-D4BB-8ED9-B5FAD3DAB016">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:25:57 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="ID_dzialu" id="44A66163-B924-0E61-C722-AAA6733864B3">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:32:26 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Nazwa_dzialu" id="CEA6DB61-EB15-29E6-E06D-80653630C05A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:26:06 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>100</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Sektor_magazynu" id="C97E2407-6DEC-2AE5-D864-6F21AFA8F63A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:28:11 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>10</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Opis_dzialu" id="EB589A48-CB6E-B980-DF24-87D90775AF46">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:28:24 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

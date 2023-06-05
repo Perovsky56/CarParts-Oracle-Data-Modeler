@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FAFDED5-1588-7E16-02D2-EC0DF3F04C34" name="Faktury">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:51:33 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_faktury" id="38E31403-ECC1-9F96-24BC-A396FEA340AE">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:23:50 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kwota" id="E282E92D-2DCC-B780-6D3E-978FAA3DE6A6">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:24:08 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_wystawienia" id="A35EBCA5-1270-7185-17B0-8A5ECA5A8456">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:25:26 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin_platnosci" id="C2D08D16-8E35-D9BE-A31A-FBBCD70B6D5E">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-23 17:59:35 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zamowienia" id="E89C392C-B0E4-BA49-07A4-62361A80DE08">
+<createdBy>pawci</createdBy>
+<createdTime>2022-04-01 16:06:57 UTC</createdTime>
+<generatorID>ABED8459-5D59-3406-B73D-01D179CC0FA5</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<referedAttribute>4D984E5A-7786-2C24-BFD4-06ADFEAB1088</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F59A0BD-7FEA-FFB0-655F-18C08DC486FD" name="Historia_zamowien PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:08:19 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38E31403-ECC1-9F96-24BC-A396FEA340AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

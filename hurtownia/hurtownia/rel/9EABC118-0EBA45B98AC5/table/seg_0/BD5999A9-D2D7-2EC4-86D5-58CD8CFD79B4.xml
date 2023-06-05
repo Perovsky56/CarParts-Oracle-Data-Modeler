@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD5999A9-D2D7-2EC4-86D5-58CD8CFD79B4" name="Zamowienia_Produkty">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zamowienia_id_zamowienia" id="A3F25631-3AE8-9426-1201-0BF573290F74">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="387CC6F3-B8B4-6726-A276-9BB91F0914CD" referredColumn="6CE29023-569C-F987-5D4D-9C5E292E2456"/>
+</associations>
+</Column>
+<Column name="Produkty_id_produktu" id="4A67DA41-7FB9-F859-F5B9-B36DE03F4148">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A29746B-BA61-FD6E-7D63-DA727EC9B364" referredColumn="C9F5D5C5-FC46-E23A-3334-B8973F5FC684"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC3BA818-2A03-2480-3F93-2B146152A586" name="Zamowienia_Produkty_PK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F25631-3AE8-9426-1201-0BF573290F74"/>
+<colUsage columnID="4A67DA41-7FB9-F859-F5B9-B36DE03F4148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D2D745C-A753-4C40-604D-4A8CFEE1F947" name="Zamowienia_Produkty_Zamowienia_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>78B78754-E486-AFAF-0E40-76C29256E4F6</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F25631-3AE8-9426-1201-0BF573290F74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA521AA9-86AC-B952-4C83-43F0C1040A52" name="Zamowienia_Produkty_Produkty_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>78B78754-E486-AFAF-0E40-76C29256E4F6</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A67DA41-7FB9-F859-F5B9-B36DE03F4148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

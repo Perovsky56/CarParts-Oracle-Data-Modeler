@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCD9D58F-6DCF-E7B2-59C5-B9BA455B1E3B" name="klientdetal_tab">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:22 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<basedOnStructuredType>707B05A1-4EB9-27DB-49C8-3402C28831C6</basedOnStructuredType>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oid" id="59FC80F9-8FFC-AC33-68B6-87B82729A72D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oid>true</oid>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>707B05A1-4EB9-27DB-49C8-3402C28831C6</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_osoba" id="9D81EB27-21BB-B4FE-D83E-BDA45B4E24FF">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>81D2F141-888B-FC67-0384-4667451F7753</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="93D3F2F3-A31C-023D-B03C-0FA5EF4B768D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>C0AFB6B6-58BF-8631-07D5-623BC3BC513B</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="28EC4864-C13A-34BB-D89A-99773A72C445">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>D8AB256F-86A1-39FB-ACDD-3A7FB6334802</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="array_telefon_typ" id="DA7D4680-3688-8956-51AE-C042B83F5FAE">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<structAttributeID>44B345A0-9A71-C545-5915-BD1B0C4FF36A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>4</use>
+<collectionType>073722C1-557D-5816-B2F8-CA4FDF0A11EA</collectionType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_dod" id="30EF5113-4173-C123-753B-649535A7B620">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>F0731840-F05A-489A-1986-5E85170AEF3A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inf_dodatkowe" id="FE3E5336-078A-F88C-1A09-EF2A01DAE876">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<structAttributeID>73491E48-B7FD-D065-AA84-3190B7EF1642</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED4F2A44-2C63-18E2-EF57-8006AB39DE5D" name="klientdetal_tab_PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:36 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oidKey>true</oidKey>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59FC80F9-8FFC-AC33-68B6-87B82729A72D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

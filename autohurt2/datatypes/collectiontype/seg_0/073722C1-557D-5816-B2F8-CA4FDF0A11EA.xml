@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="telefon_typ_Array" directorySegmentName="seg_0" id="073722C1-557D-5816-B2F8-CA4FDF0A11EA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:13:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size></size>
+<type>17B91A71-304B-0213-1920-7361E416ED85</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>10</maxElement>
+<type>ARRAY</type>
+</CollectionType>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="152A5896-3CCC-016D-6797-FAC91EAC2609" name="Dostawy">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:54:23 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dostawy" id="CE5AB4C7-6531-2C05-6C40-5F05C60D6961">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:07:04 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_etykiety" id="2E10C2C3-6180-0CA9-7954-EB9448A70A62">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:27:54 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_dostawy" id="55C56EDE-BBA9-01F2-A18C-FC30A9F63EAC">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:19:31 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miasto" id="81A1EE91-C49F-2E23-D480-7B3FC8C539FA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:20:00 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod_pocztowy" id="50E5E987-428F-621F-FC53-8DFB7B2D6B5F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:20:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="54D023C6-47F9-BBCE-9402-58B54636357D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:20:04 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_budynku" id="356B5CF9-2A76-C055-CD7D-9C18ABD34E47">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:20:05 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_mieszkania" id="1E03CCBE-A11E-355B-7B94-977B3608FCBB">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-23 18:19:24 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zamowienia" id="7970C285-5CE8-77CD-9C4D-FFDB9CF12F56">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:29:04 UTC</createdTime>
+<generatorID>46A7F2FB-E2A5-2F69-9378-6BD35B3FA318</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<referedAttribute>4D984E5A-7786-2C24-BFD4-06ADFEAB1088</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E6D91EC-91B3-2547-B65F-4C21ADF1316B" name="Dostawy PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:07:06 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE5AB4C7-6531-2C05-6C40-5F05C60D6961</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

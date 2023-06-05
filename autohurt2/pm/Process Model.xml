@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D70E2732-81E7-C137-9546-AB3B65B4B3C3">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:03:39 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

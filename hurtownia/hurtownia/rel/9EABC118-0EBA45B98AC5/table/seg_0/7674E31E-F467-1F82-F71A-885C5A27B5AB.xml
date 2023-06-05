@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7674E31E-F467-1F82-F71A-885C5A27B5AB" name="Faktury">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>4FAFDED5-1588-7E16-02D2-EC0DF3F04C34</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_faktury" id="E5F4EDC1-AA62-5770-2730-02806D04CC93">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>38E31403-ECC1-9F96-24BC-A396FEA340AE</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kwota" id="EF959FDF-6746-DEA9-0000-628D45A21208">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>E282E92D-2DCC-B780-6D3E-978FAA3DE6A6</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_wystawienia" id="92545967-7ED1-1C04-8121-4A255C4F1868">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>A35EBCA5-1270-7185-17B0-8A5ECA5A8456</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Termin_platnosci" id="0D5F35F0-24CD-3B91-E042-23883EEE3CEA">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>C2D08D16-8E35-D9BE-A31A-FBBCD70B6D5E</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamowienia_id_zamowienia" id="581C791A-88E2-FE79-E7ED-48FBC94B3D34">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>E89C392C-B0E4-BA49-07A4-62361A80DE08</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A21A6299-276D-81F7-02B0-996167DE2708" referredColumn="6CE29023-569C-F987-5D4D-9C5E292E2456"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7B4AFC1-F1AB-E95E-FC07-D4CEC86CB7D6" name="Faktury_PK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>2F59A0BD-7FEA-FFB0-655F-18C08DC486FD</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F4EDC1-AA62-5770-2730-02806D04CC93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E8087DB-8CF2-E9B0-04E9-3DEA1C6ABF5B" name="Faktury__IDX">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ABED8459-5D59-3406-B73D-01D179CC0FA5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="581C791A-88E2-FE79-E7ED-48FBC94B3D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F135B952-C006-D54C-4A1B-9B99B6904032" name="Faktury_Zamowienia_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>ABED8459-5D59-3406-B73D-01D179CC0FA5</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581C791A-88E2-FE79-E7ED-48FBC94B3D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

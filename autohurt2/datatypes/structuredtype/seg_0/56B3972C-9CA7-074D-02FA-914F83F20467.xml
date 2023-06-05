@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="zamowienie_typ" directorySegmentName="seg_0" id="56B3972C-9CA7-074D-02FA-914F83F20467">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:31:05 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="ID_zamowienia" id="5FFAE017-691F-F1E5-588F-41FAB0FB0300">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:31:14 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Kwota" id="31621DF9-8724-D940-1DEA-76620D5D5229">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:31:23 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>10</precision>
+<reference>false</reference>
+<scale>2</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Data_utw" id="95218BE9-A1E3-4D02-BBE5-467A4C2E886D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:31:33 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT008</type>
+</Attribute>
+<Attribute name="Rabat" id="80B7000A-9495-4C7D-DD76-0AD7433AB812">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:31:45 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>10</precision>
+<reference>false</reference>
+<scale>2</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Inf_dodatkowe" id="D733DABF-722B-6D37-7635-6ED3F3D3E68D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:32:00 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ref_pracownik_typ" id="C8F48C6A-87C3-94CF-6379-23C5688D2506">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:32:54 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>true</reference>
+<referencerelation>A5751D43-9AB4-FA33-21AA-88CD69411E70</referencerelation>
+<scale>0</scale>
+<type>876CE9D9-9A50-57B6-52C7-D6060078DA8B</type>
+<referenceID>A5751D43-9AB4-FA33-21AA-88CD69411E70</referenceID>
+</Attribute>
+<Attribute name="ref_klientdetal_typ" id="F99300F5-A7FD-4400-81C5-1984F8C61B1A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:32:58 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>true</reference>
+<referencerelation>4F62B1FD-DC75-795B-D267-6C04B0F9118D</referencerelation>
+<scale>0</scale>
+<type>707B05A1-4EB9-27DB-49C8-3402C28831C6</type>
+<referenceID>4F62B1FD-DC75-795B-D267-6C04B0F9118D</referenceID>
+</Attribute>
+<Attribute name="ref_firmazamaw_typ" id="935825BE-0950-1D39-6ED8-819BAA469890">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:33:04 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>true</reference>
+<referencerelation>D82FCAAA-D32A-3089-FED4-835C7267977E</referencerelation>
+<scale>0</scale>
+<type>1B566E72-D7AD-DAB0-3ABD-D606B8721F46</type>
+<referenceID>D82FCAAA-D32A-3089-FED4-835C7267977E</referenceID>
+</Attribute>
+<Attribute name="ref_dostawa_typ" id="02A0A789-5753-6599-27E2-2EC09EE9EA1A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:33:19 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>true</reference>
+<referencerelation>E4162A3B-A61A-BAC1-34A9-5A09B3079933</referencerelation>
+<scale>0</scale>
+<type>E1A5B8E1-E192-30DD-DAB1-9D00697F7F58</type>
+<referenceID>E4162A3B-A61A-BAC1-34A9-5A09B3079933</referenceID>
+</Attribute>
+<Attribute name="array_produkt_typ" id="0EA427D6-F7C2-FF3C-060C-E2F20387259F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:33:40 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>9C88CC38-6D0C-02E8-91F0-7AC20EC5E649</referencerelation>
+<scale>0</scale>
+<type>D7C806DE-0735-BC7B-FB4C-C51384D25156</type>
+<referenceID>9C88CC38-6D0C-02E8-91F0-7AC20EC5E649</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>

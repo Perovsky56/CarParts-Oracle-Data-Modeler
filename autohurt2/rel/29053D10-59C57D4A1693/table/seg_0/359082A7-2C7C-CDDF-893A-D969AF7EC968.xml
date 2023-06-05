@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="359082A7-2C7C-CDDF-893A-D969AF7EC968" name="dostawa_tab">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:14 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<basedOnStructuredType>E1A5B8E1-E192-30DD-DAB1-9D00697F7F58</basedOnStructuredType>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oid" id="1D39B248-DED1-4328-7BE6-FFCAA6358CCE">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oid>true</oid>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>E1A5B8E1-E192-30DD-DAB1-9D00697F7F58</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_dostawy" id="3611AC05-1253-99C7-CC16-088287ADE2C9">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>C1325F6D-EB9C-AEEA-7DAD-52467E93B221</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_etykiety" id="6BD55C47-181E-0750-ACD7-325F38C3CE5E">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>1A9AE088-3680-AA45-0240-383715037E1A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_dostawy" id="01BBE608-C2A3-9D36-07FC-5E82DF97C448">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>F1EB038E-6B0F-FCEF-C7F7-EDCF816BCF5D</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inst_adres_typ" id="3BA14774-6725-EDFA-4437-4530FA073D3B">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<structAttributeID>21ABA360-AF28-A754-7184-6AD0E7E5C800</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>87F53637-5F6D-755D-E97B-B565196BE8F0</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="inst_adres_typ.Miejscowosc" id="BB911C60-F2CE-6F9A-358B-FCE1BBE42E24">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>3BA14774-6725-EDFA-4437-4530FA073D3B</parentObject>
+<structAttributeID>E1C90FB6-8878-6BEE-D511-0DE4557A6F02</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Kod_pocztowy" id="0D85AAB4-FADC-0087-2CD3-C010E4C71BDC">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>3BA14774-6725-EDFA-4437-4530FA073D3B</parentObject>
+<structAttributeID>25A7E277-96AA-DF0B-A8DD-3697FF3C6C71</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Ulica" id="C132E7D4-9AE9-325D-7411-CCDA590D8856">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>3BA14774-6725-EDFA-4437-4530FA073D3B</parentObject>
+<structAttributeID>4EA966BC-EA8B-2B86-CD0B-0B50A1B96AA4</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Nr_domu" id="25BF1BDA-2EAF-EB1D-D3FC-682CE04A2155">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>3BA14774-6725-EDFA-4437-4530FA073D3B</parentObject>
+<structAttributeID>11B39DF7-FA66-513F-73DF-3876AE1F15CD</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Nr_lokalu" id="60D2DFFC-C2E4-E642-5FC9-C5F28E8AA90F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>3BA14774-6725-EDFA-4437-4530FA073D3B</parentObject>
+<structAttributeID>A78B3B9B-3036-8D74-412E-5BCB60DE5E29</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7B88870-A5E9-B238-18C6-6961A7D8A3C4" name="dostawa_tab_PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:42:21 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oidKey>true</oidKey>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D39B248-DED1-4328-7BE6-FFCAA6358CCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

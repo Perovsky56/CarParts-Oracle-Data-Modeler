@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD3F3ECD-5805-481F-ACDF-FC1A87E68A47" name="Produkty">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:55:58 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produktu" id="79BE63FB-6C81-318F-D48C-61D36D1871E7">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:57:20 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod_produktu" id="A69B4F5D-E588-DF3F-FF1C-70AC15DE5718">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:57:32 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod_regalu" id="2A3BD3E5-7210-1A00-B019-2D17229FB72F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-23 17:58:36 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_dodania" id="FD412AD7-421E-30B5-50FC-7C0B37F0D6AB">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:59:35 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dostepnych_sztuk" id="45DA7960-BBAD-A559-7993-71ED8417433D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:03:16 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_produktu" id="D3D1C497-148B-586D-0978-D2A4E3212ABE">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 12:23:47 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis_produktu" id="C4884F76-2704-F971-31BE-29DA51699BE1">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:01:03 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dzialu" id="8FE7466E-980B-634A-0034-F7C441382B7E">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-23 18:01:29 UTC</createdTime>
+<generatorID>483A16BF-A1E4-E2DF-EBE8-243B5B9524F3</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<referedAttribute>401C6363-FAE7-4B59-74EE-AB10BF40E952</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C24438A-4AB5-28B6-26A2-906B9ADB4025" name="Produkty PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:57:25 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79BE63FB-6C81-318F-D48C-61D36D1871E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

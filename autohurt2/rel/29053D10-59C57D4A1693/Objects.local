@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="359082A7-2C7C-CDDF-893A-D969AF7EC968" name="dostawa_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D5262A38-F9A3-7963-ECB0-D6B7859EEF7C" name="dzial_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="07741CDC-C227-AA71-F8AE-585FA1D696BC" name="firmazamaw_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="CCD9D58F-6DCF-E7B2-59C5-B9BA455B1E3B" name="klientdetal_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="FD907045-C581-EC98-F4B0-E21CCEC3EB0D" name="pracownik_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="AE65A1F8-6810-1A32-76AA-DE0F1AECDAE1" name="produkt_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F20C8086-3DAE-31F0-EE7A-466972691781" name="zamowienie_tab" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="29053D10-0F84-ECB6-A88B-59C57D4A1693" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

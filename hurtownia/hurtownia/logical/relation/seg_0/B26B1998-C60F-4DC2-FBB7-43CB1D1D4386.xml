@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="B26B1998-C60F-4DC2-FBB7-43CB1D1D4386">
+<createdBy>student</createdBy>
+<createdTime>2022-03-16 13:39:25 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+</engineerTo>
+<sourcePk>6910F536-3C7E-9400-BC38-51D2A1162B4A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>zajmuje sie</nameOnSource>
+<nameOnTarget>ma przydzielonego</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A630A133-3724-4FB7-D322-8DB21BA3484C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F914A4BC-204E-43D5-F553-CFE2763ED4E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

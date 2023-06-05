@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07741CDC-C227-AA71-F8AE-585FA1D696BC" name="firmazamaw_tab">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:40:48 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<basedOnStructuredType>1B566E72-D7AD-DAB0-3ABD-D606B8721F46</basedOnStructuredType>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oid" id="FFA1D70D-3834-20D3-70CD-655D72037133">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oid>true</oid>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>1B566E72-D7AD-DAB0-3ABD-D606B8721F46</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_firmy" id="521B9075-5BCF-4A47-C18D-B3180EFC61CA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>3B2C7E5E-F104-88FE-041D-D6390254DA40</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_firmy" id="18F972DA-30FA-C4B4-CF5F-4558394C8712">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>80EE5406-84DA-8F6F-5789-7F8DD7C8280B</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIP" id="1EEEFA71-230A-09CC-555B-A47B96068CFA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>1E6208F5-403D-2E0A-FDA8-F838A3AC0E39</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_dod" id="84A74C8B-4B74-AA19-21EC-909B79837096">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>D4C7D91A-D2C2-7FF3-DAEA-CB90D40AFE7D</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="array_telefon_typ" id="907CB7EB-E947-0C93-67F0-AC5D0C210A44">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<structAttributeID>9E4CED0B-420C-9A5A-D0F5-0651DE7DD50E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>4</use>
+<collectionType>073722C1-557D-5816-B2F8-CA4FDF0A11EA</collectionType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inst_adres_typ" id="B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<structAttributeID>4A14513A-12BF-76C9-25EB-A2CB6C596F59</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>87F53637-5F6D-755D-E97B-B565196BE8F0</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="inst_adres_typ.Miejscowosc" id="DF1483AF-00EB-FFBD-F3C0-7E3FDCEDD990">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3</parentObject>
+<structAttributeID>E1C90FB6-8878-6BEE-D511-0DE4557A6F02</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Kod_pocztowy" id="82ECA7C7-7C42-1B45-8130-294C321DED57">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3</parentObject>
+<structAttributeID>25A7E277-96AA-DF0B-A8DD-3697FF3C6C71</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Ulica" id="ADFC62B1-3B37-1E55-30AB-AB824AD4145E">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3</parentObject>
+<structAttributeID>4EA966BC-EA8B-2B86-CD0B-0B50A1B96AA4</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Nr_domu" id="80B84ACF-555A-F227-A09F-4F6F251911B8">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<parentObject>B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3</parentObject>
+<structAttributeID>11B39DF7-FA66-513F-73DF-3876AE1F15CD</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="inst_adres_typ.Nr_lokalu" id="FB5A67E5-40A0-CE3D-EC2C-571041F9CCBA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>B90E5DAD-7FF3-E0EE-CE58-CFEA05A776E3</parentObject>
+<structAttributeID>A78B3B9B-3036-8D74-412E-5BCB60DE5E29</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11EB4505-2794-201D-3E39-D107535F746B" name="firmazamaw_tab_PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:41:51 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<oidKey>true</oidKey>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA1D70D-3834-20D3-70CD-655D72037133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

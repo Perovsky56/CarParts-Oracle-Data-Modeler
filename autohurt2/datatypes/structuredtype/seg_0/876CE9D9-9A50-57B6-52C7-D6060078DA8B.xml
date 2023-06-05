@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="pracownik_typ" directorySegmentName="seg_0" id="876CE9D9-9A50-57B6-52C7-D6060078DA8B">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:16:50 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<inheritanceRelation>BBB7EF5E-6281-91BD-2785-40DDAF7BA0ED</inheritanceRelation>
+<instantiable>true</instantiable>
+<parentTypeID>261DCBC5-955E-B05E-AA00-7C8797CDBA6E</parentTypeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="Nazwa_stanowiska" id="F57ADE90-F95F-2AC9-5B91-E13970DC282A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:17:57 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>50</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Pensja_miesieczna" id="61224858-9913-A0DC-95BB-403517364A83">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:18:09 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>10</precision>
+<reference>false</reference>
+<scale>2</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Zakres_obowiazkow" id="07AA824A-45D3-1227-73A4-3CC74705EF10">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:18:17 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

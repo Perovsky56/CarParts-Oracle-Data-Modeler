@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE10566E-7E7A-F74B-2280-283744E58D6C" name="Klienci_detaliczni">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 08:53:24 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_klienta" id="A2D0F16A-C07E-5C85-1A75-1E7C9598BE26">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:07:32 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="0471AE23-9810-7DF1-026F-88D5480892DB">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:09:05 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="F5B9E1AF-890F-305A-14F8-7E31115065D2">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:09:06 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr_telefonu" id="F83308D1-73F2-2065-3505-C4EA9D8BDB96">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:09:07 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_dodania" id="8700EA9A-53DD-776B-7441-F6B291AF89EA">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:11:02 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA6784E3-EAC2-FDA7-2E78-4173EFF9C9BB" name="Dane_wlasciciela PK">
+<createdBy>pawci</createdBy>
+<createdTime>2022-03-11 09:07:41 UTC</createdTime>
+<ownerDesignName>hurtownia</ownerDesignName>
+<engineerTo>
+<item key="2ABE2CE4-972A-8609-B327-61153AEE26AB" value="true"/>
+<item key="9EABC118-98D4-5600-832E-0EBA45B98AC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2D0F16A-C07E-5C85-1A75-1E7C9598BE26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F94989AB-9AE4-FFCE-16E8-7A01EC0729F5" name="Zamowienia">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>F914A4BC-204E-43D5-F553-CFE2763ED4E0</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zamowienia" id="6CE29023-569C-F987-5D4D-9C5E292E2456">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>4D984E5A-7786-2C24-BFD4-06ADFEAB1088</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kwota" id="38010E53-8DE9-39D8-76BB-F94476B685ED">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>BEF4866D-0596-BC92-2AF4-18A8FAF59BD3</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_utw" id="7AE5989F-C41F-BAC4-A62E-15F85592D148">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>3C582EF9-D3BD-82E8-D451-9F963C48C712</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rabat" id="C101FF95-F0AF-542D-2BDA-0E13F45072B3">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>F5BC6B8E-4141-CF03-079F-1032B2821633</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inf_dodatkowe" id="5DE7BC1C-1819-3273-165B-76D851E22FD6">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>4DCF9DBB-76C6-5679-02D7-C47C9D5DA8A3</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pracownicy_id_pracownika" id="ECA22264-C338-6235-88D8-A93AC2AA5654">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>BC5074BC-36AC-A0BB-CC3B-D514778A4898</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC1814A3-E8D6-1466-60D6-171E1876E26A" referredColumn="45B7F7B5-9B6A-1339-712E-ECD7F29B32C7"/>
+</associations>
+</Column>
+<Column name="Firmy_zamawiajace_id_firmy" id="80E87B04-AC35-E9FC-B116-11FEA2403A1D">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>B081DB09-3AFD-54FC-5564-BF0891A23858</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="684D4E09-F34F-C718-921C-043C3F181081" referredColumn="27E34D93-5F5A-D7BC-A28B-A4E3FBDDF98D"/>
+</associations>
+</Column>
+<Column name="Klienci_detaliczni_id_klienta" id="5A50D28E-269C-28EB-D78B-84F7BBA2DFED">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>CB4E4F86-8A12-3890-426A-E6E2324653D4</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="652E31A3-44F0-B330-AA61-EDEB5414C83C" referredColumn="10F6DDFA-A804-9776-AE3A-C59ACCCAA433"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB18C1D3-8976-D6A9-8C06-F3B013E6DFDF" name="Zamowienia_PK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>C5E6A335-1522-0771-E173-3E51A93BC0F5</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE29023-569C-F987-5D4D-9C5E292E2456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A773C6-2F10-21B2-CE04-87135E4499FE" name="Zamowienia_Pracownicy_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>B26B1998-C60F-4DC2-FBB7-43CB1D1D4386</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA22264-C338-6235-88D8-A93AC2AA5654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19E912C5-9B03-E583-E840-1E8A0D2BFBBE" name="Zamowienia_Firmy_zamawiajace_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>6898BDC1-884C-2CBA-B42A-3D7288DE8253</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E87B04-AC35-E9FC-B116-11FEA2403A1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FFEF4F8-5F0B-0C0C-CE1B-085C98154563" name="Zamowienia_Klienci_detaliczni_FK">
+<createdBy>student</createdBy>
+<createdTime>2022-04-06 13:04:36 UTC</createdTime>
+<generatorID>C39838A2-8ED4-D058-C515-A2E7DA004417</generatorID>
+<ownerDesignName>hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A50D28E-269C-28EB-D78B-84F7BBA2DFED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

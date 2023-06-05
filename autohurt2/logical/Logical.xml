@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6072BDA6-7DF6-E00B-9B33-F8967D767DDF" mainViewID="4F58CAD5-F352-3D7B-2901-4CEBB6D5B6B9">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:03:39 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

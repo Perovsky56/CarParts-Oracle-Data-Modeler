@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="osoba_typ" directorySegmentName="seg_0" id="261DCBC5-955E-B05E-AA00-7C8797CDBA6E">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:06:05 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="ID_osoba" id="81D2F141-888B-FC67-0384-4667451F7753">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:07:53 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Imie" id="C0AFB6B6-58BF-8631-07D5-623BC3BC513B">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:08:14 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>20</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Nazwisko" id="D8AB256F-86A1-39FB-ACDD-3A7FB6334802">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:08:17 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>40</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="array_telefon_typ" id="44B345A0-9A71-C545-5915-BD1B0C4FF36A">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:13:59 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>4A6F9AE7-5481-17A6-EE5A-B0B769E59B95</referencerelation>
+<scale>0</scale>
+<type>073722C1-557D-5816-B2F8-CA4FDF0A11EA</type>
+<referenceID>4A6F9AE7-5481-17A6-EE5A-B0B769E59B95</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>

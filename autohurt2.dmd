@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="autohurt2" id="AC4EA5F6-56D4-E070-4A9A-613B210A8D59" version="3.5">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:03:39 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AC4EA5F6-56D4-E070-4A9A-613B210A8D59</designId>
+</OSDM_Design>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="produkt_typ" directorySegmentName="seg_0" id="81DB0897-2ECC-8488-AE25-5460037FDF89">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:28:42 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="ID_produktu" id="D3848DBB-32B2-5BFC-ACA8-C00F7B8AEA6B">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:28:52 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Kod_produktu" id="4C18A60D-E236-DFA1-C01E-38F38576B986">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:29:01 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>12</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Kod_regalu" id="792FD729-758E-AAB1-3142-8EAC2AD564D9">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:29:14 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>5</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="Data_dod" id="1645FB69-55E3-0658-D3EE-C1BACDC8DB3F">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:29:44 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT008</type>
+</Attribute>
+<Attribute name="Dost_sztuk" id="58CD93A7-FA4B-9844-67DE-CAAB6997D0C2">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:29:55 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="Cena_produktu" id="F0E20B5E-505F-5AF7-3502-64FA3876636D">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:30:07 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>10</precision>
+<reference>false</reference>
+<scale>2</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Inf_dodatkowe" id="2CDD411F-6C8E-267C-EB14-9F12E854087C">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:30:23 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<units>CHAR</units>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="array_dzial_typ" id="1AAC063A-F95B-2AC9-F37A-ADF8AE38B070">
+<createdBy>pawci</createdBy>
+<createdTime>2022-06-12 15:33:27 UTC</createdTime>
+<ownerDesignName>autohurt2</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>861125FD-ABC3-FBF0-D14E-B8E29D07081A</referencerelation>
+<scale>0</scale>
+<type>EDD2A9A8-5206-DBBE-012A-2C8263FDBA1E</type>
+<referenceID>861125FD-ABC3-FBF0-D14E-B8E29D07081A</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>
